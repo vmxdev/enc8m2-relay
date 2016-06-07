@@ -26,4 +26,4 @@ where `60001` is UDP-port which receives a stream
 
 If you have two encoder with addresses 192.168.1.22 and 192.168.1.33, relay redirect flows in this way: stream from first camera of first encoder will be redirected to 127.0.0.1:60220, from second camera to 127.0.0.1:60221 and so on. Streams from second encoder will be redirected to 127.0.0.1:60330, 127.0.0.1:60331, 127.0.0.1:60332 etc.
 
-`16` - number of header bytes that need to be cut in each package
+`16` - number of header bytes that need to be cut in each packet
